@@ -36,7 +36,7 @@ div#background-pattern {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 31vw;
+    width: 35vw;
     background-color: white;
     height: fit-content;
     padding: 35px;
@@ -55,6 +55,7 @@ p.answer {
     height: 13vh;
     transition: all 400ms ease-in-out;
     overflow: hidden;
+    line-height: 22px;
 }
 
 /* Title FAQs */
@@ -65,11 +66,11 @@ div.title {
 }
 div.title img#icon-star {
     padding: 3vh 3vh 3vh 0;
-    height: 5vh;
+    height: 6vh;
 }
 div.title h1#title {
     margin: 0;
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 700;
 }
 
@@ -122,7 +123,6 @@ p.answer.hidden {
     p.answer {
         height: 25vh;
         font-size: 1.5rem;
-        line-height: 22px;
     }
     div.question-title {
         gap: 5vw;
